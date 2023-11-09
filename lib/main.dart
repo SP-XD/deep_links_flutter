@@ -16,7 +16,7 @@ class PocApp extends StatelessWidget {
         theme: ThemeData(
             primarySwatch: Colors.blue,
             textTheme: TextTheme(
-              subtitle1: TextStyle(
+              titleMedium: TextStyle(
                 fontWeight: FontWeight.w300,
                 color: Colors.blue,
                 fontSize: 25.0,
@@ -24,8 +24,6 @@ class PocApp extends StatelessWidget {
             )),
         home: Scaffold(
             body: Provider<DeepLinkBloc>(
-                create: (context) => _bloc,
-                dispose: (context, bloc) => bloc.dispose(),
-                child: PocWidget())));
+                create: (context) => _bloc, dispose: (context, bloc) => bloc.dispose(), child: PocWidget())));
   }
 }

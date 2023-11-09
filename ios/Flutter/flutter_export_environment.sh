@@ -1,7 +1,7 @@
 #!/bin/sh
 # This is a generated file; do not edit or check into version control.
-export "FLUTTER_ROOT=/home/spxd/snap/flutter/common/flutter"
-export "FLUTTER_APPLICATION_PATH=/home/spxd/Documents/projects/deep_links_flutter"
+export "FLUTTER_ROOT=/Users/somnathpaul/fvm/versions/3.13.9"
+export "FLUTTER_APPLICATION_PATH=/Volumes/Samsung_PSSD_T7_Media/Projects/freelance/deep_links_flutter"
 export "COCOAPODS_PARALLEL_CODE_SIGN=true"
 export "FLUTTER_TARGET=lib/main.dart"
 export "FLUTTER_BUILD_DIR=build"
